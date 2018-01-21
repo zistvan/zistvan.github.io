@@ -1,1 +1,248 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Zsolt Istvan's Homepage</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<div id="wrap">
+  <div id="top">
+    <h2>Zsolt István</a></h2>
+    <div id="menu">
+      <ul>
+        <li><a href="#showresearch">RESEARCH</a></li>
+        <li><a href="#showteaching">TEACHING</a></li>
+        <li><a href="cv/cv-dec-2017.pdf">CV</a></li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div id="content">
+    <div id="left">
+
+	<a href="#showresearch" class="showres" id="showresearch"/>
+	<a href="#showteaching" class="showteach" id="showteaching"/> 
+
+	<div class="research">
+            <a id="research"></a>
+      <h1>Research</h1>
+      <p>The fundamental question I want to answer in my research is how to 
+      use <b>FPGAs</b>, and other custom hardware, to speed up <b>database operations</b> and <b>data processing in the datacenter</b>. </p>
+
+      <p>Previously I have been working on new ways of implementing high-throughput <b>hash tables in FPGAs</b>.
+      I contributed to our IBEX project (database storage engine running on an FPGA) a hash table which performs fast Group By aggregation, 
+      and I worked on an FPGA-based memcached pipeline while on an internship at <a href="http://www.xilinx.com/about/research-labs/index.htm">Xilinx
+      Labs</a> (see my <a href="http://dx.doi.org/10.3929/ethz-a-007636118">Master thesis</a>).
+
+      <p>Prior to that I worked on <b>annotation-based
+      parallelization</b>
+      of objects in a distributed
+      computing <a href="http://proactive.activeeon.com/index.php">framework</a>
+      on top of Java and on <b>distributed random number
+      generation</b> using
+      the <a href="http://blobseer.gforge.inria.fr/doku.php">BlobSeer</a>
+      storage engine.
+
+	<p style="background-color:lightblue">
+	  <b>Looking for a thesis topic?</b></br> We have several interesting projects and ideas suitable for Bachelor and Master thesis, or lab projects. If you are passionate about systems and want to explore hybrid designs in which hardware and software work together to deliver cutting edge performance, please send me an e-mail.</p>
+
+            <a id="publications"></a>
+      <h1>Publications</h1>
+
+      <p>2017</p>
+
+      <p>
+      <b>Caribou: Intelligent Distributed Storage</b>.&nbspZs. Istvan, D. Sidler, G. Alonso.&nbsp<i>To appear in VLDB 2017, Munich, Germany.</i>&nbsp<a href="https://people.inf.ethz.ch/zistvan/doc/p1286-istvan.pdf">[pdf]</a>&nbsp<a href="https://people.inf.ethz.ch/zistvan/doc/vldb17-caribou-slides.pdf">[slides]</a>
+      </br>Resources for the larger project: <a href="https://github.com/fpgasystems/caribou">[Code on Github]</a>&nbsp;<a href="https://www.youtube.com/watch?v=07zuIZD0oY4&feature=youtu.be">[Short Video]</a>
+      </p>
+      
+      <p>
+      <b>Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures</b>.&nbspD. Sidler, Zs. Istvan, M. Ewaida, G. Alonso.&nbsp<i>2017 ACM SIGMOD/PODS Conference (SIGMOD'17), Chicago, US. </i><a href="http://www.davidsidler.ch/files/sigmod17-patternmatching.pdf">[pdf]</a>
+      </p>
+
+      <p>2016</p>
+
+      <p>
+	<b>Low-Latency TCP/IP Stack for Data Center Applications</b>.&nbspD. Sidler, Zs. Istvan, G. Alonso.&nbsp<i>26th International Conference on Field Programmable Logic and Applications (FPL'16), Lausanne, Switzerland, September 2016.</i>&nbsp<a href="http://davidsidler.ch/files/fpl16-lowlatencytcpip.pdf">[pdf]</a>&nbsp
+	</p>
+
+      <p>
+	<b>Runtime Parameterizable Regular Expression Operators for Databases</b>.&nbspZs. Istvan*, D. Sidler*, G. Alonso. (*=equal contribution). &nbsp<i>The 24th IEEE International Symposium on
+Field-Programmable Custom Computing Machines (FCCM'16), May 2016.</i>&nbsp<a href="https://people.inf.ethz.ch/zistvan/doc/regex-fccm2016.pdf">[pdf]</a>&nbsp
+	</p>
+	
+
+      <p>
+      <b>Consensus in a Box: Inexpensive Coordination in Hardware</b>.&nbspZs. Istvan, D. Sidler, G. Alonso, M. Vukolic.&nbsp<i>13th USENIX Symposium on Networked Systems Design and Implementation (NSDI '16), March 2016.</i>&nbsp<a href="https://people.inf.ethz.ch/zistvan/doc/nsdi16-istvan-rev1.pdf">[pdf]</a>&nbsp<a href="https://youtu.be/TVChWma65_4?list=PLtP6cREytnDiZfdwnnZ_YXleO0JWKtAHS">[slides+audio]</a>&nbsp<a href="https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/istvan">[slides]</a></p>      
+
+
+      <p>2015</p>
+
+      <p>
+      <b>A Hash Table for Line Rate Data Processing</b>.&nbspZs. Istvan, G. Alonso, M. Blott, K. Vissers.&nbsp<i>ACM Transactions on Reconfigurable Technology and Systems (TRETS) - Special FPL'13 Issue, March 2015.</i>&nbsp<a href="http://people.inf.ethz.ch/zistvan/https://people.inf.ethz.ch/zistvan/doc/trets15-istvan.pdf">[pdf]</a></p>      
+      
+      <p>2014</p>
+
+      <p>
+      <b>Ibex -- An Intelligent Storage Engine with Support for Advanced SQL Off-loading</b>.&nbspL. Woods, Zs. Istvan, G. Alonso.&nbsp<i>VLDB 2014, Hangzhou, China, September 2014.</i>&nbsp<a href="http://www.vldb.org/pvldb/vol7/p963-woods.pdf">[pdf]</a></p>
+
+      <p>
+      <b>Histograms as a Side Effect of Data Movement for Big Data</b>.&nbspZs. Istvan, L. Woods, G. Alonso.&nbsp<i>2014 ACM SIGMOD/PODS Conference (SIGMOD'14), Snowbird, Utah, US.</i>&nbsp<a href="http://people.inf.ethz.ch/zistvan/https://people.inf.ethz.ch/zistvan/doc/sigmod14-istvan.pdf">[pdf]</a></p>
+ 
+      <p>2013</p>
+
+      <p>
+      <b>A Flexible Hash Table Design For 10Gbps Key-value Stores on FPGAs</b>.&nbspZs. Istvan, G. Alonso, M. Blott, K. Vissers.&nbsp<i>23rd International Conference on Field Programmable Logic and Applications (FPL'13), Porto, Portugal, 2-4 September 2013.</i>&nbsp<a href="http://people.inf.ethz.ch/zistvan/https://people.inf.ethz.ch/zistvan/doc/paperM3C_3.pdf">[pdf]</a></p>
+
+      <p>
+      <b>Achieving 10Gbps Line-rate Key-value Stores with FPGAs</b>.&nbspM. Blott, K. Karras, L. Liu, K. Vissers, Zs. Istvan, J. Bar.&nbsp<i>5th
+      USENIX Workshop on Hot Topics in Cloud Computing (HotCloud'13),
+      San Jose, CA, 25-26 June 2013.</i> <a href="http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/11566-hotcloud13-blott.pdf">[pdf]</a>&nbsp<a href="https://www.usenix.org/sites/default/files/conference/protected-files/blott_hotcloud13_slides.pdf">[slides]</a></p>
+
+      <p>
+	<b>Multi-threaded Active
+	Objects</b>.&nbspL. Henrio, F. Huet, Zs. Istvan.&nbsp<i>15th International Conference on Coordination
+	models and Languages (COORDINATION 2013), Firenze, Italy, 3-5
+	June 2013.</i> <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-38493-6_7">[pdf]</a></p>
+
+      <p>2011</p>
+      <p>
+	<b>Adapting Active Objects to Multicore	Architectures</b>.&nbspL. Henrio, F. Huet, Zs. Istvan, G. Sebestyen.&nbsp<i>International Symposium on Parallel and
+	Distributed Computing (ISPDC 2011).</i> <a href="http://hal.inria.fr/docs/00/64/41/69/PDF/Macro2011.pdf">[pdf]</a>
+      </p>
+
+      <h1>Patents</h1>
+      
+      <p><b>Systems and Methods for Providing Distributed Tree Traversal Using Hardware-Based Processing
+(US 20160147779 A1)</b>.&nbspKenneth H. Eguro, Zsolt Istvan, Arvind Arasu, Ravishankar Ramamurthy, Kaushik Shriraghav.&nbspPatent application filed 11/26/14.</p>
+
+<!--      <p>2010</p>
+      <p> <b>Gathering Entropy at Large Scale with HAVEGE and
+      BlobSeer</b>.&nbspA. Suciu, B. Nicolae, G. Antoniu, Zs. Istvan,
+      I. Szakats.&nbsp<i>Automat. Comput. Appl. Math.19, 3-11, MEDIAMIRA
+      Science Publisher, 2010</i> 
+	</p> -->
+
+      <h1>Videos</h1>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/videoseries?list=PLIacQiJh2IzHXZwKViQOcfGs3TeIttoT4" frameborder="0" allowfullscreen></iframe>
+
+      <h1>Demos and Posters</h1>
+
+      <p><b>Caribou: A Platform for Building Smart Storage</b> <br/><a href="https://people.inf.ethz.ch/zistvan/doc/eurosys17-caribou-poster.pdf">[Poster]</a> for <i>European Conference on Computer Systems (EuroSys'17), Belgrade, Serbia, 24-26 April 2017.</i></p>
+
+      <p><b>doppioDB: A Hardware Accelerated Database</b><br/><a href="https://people.inf.ethz.ch/zistvan/doc/doppiodb-sigmod17-demo.pdf">[Demo]</a><a href="https://people.inf.ethz.ch/zistvan/doc/doppiodb-sigmod17-demoposter.pdf">[Poster]</a> for <i>SIGMOD 2017, Chicago IL, 2017</i>
+
+
+      <p> <b>Specialized Microservers for the Data Center</b><br/> <a href="http://eurosys2015.labri.fr/posters/p26.pdf">[Poster]</a> for <i>European Conference on Computer Systems (EuroSys'15), Bordeaux, France, 21-24 March 2015.</i>
+<br/>
+<a href="https://people.inf.ethz.ch/zistvan/doc/fpl2015-demo-poster.pdf">[Demo]</a> for <i>25th International Conference on Field Programmable Logic and Applications (FPL'15), London, UK, September 2015.</i>
+
+      </p>
+
+      <p>
+	<b>Hybrid FPGA-accelerated SQL Query Processing</b> <br/><a href="https://people.inf.ethz.ch/zistvan/doc/fpl13-ibex-demo.pdf">[Demo]</a> for <i>23rd International Conference on Field Programmable Logic and Applications (FPL'13), Porto, Portugal, 2-4 September 2013.</i> 
+      </p>
+
+<br/>
+
+
+</div>
+
+	<div class="teaching">
+      <a id="teaching"></a>
+      <h1>Teaching</h1>
+      <p>
+      <b>Data Modelling and Databases, Spring 2017</b> <a href="http://www.systems.ethz.ch/courses/spring2017/data_mod_db">[website]</a>
+</p>
+ </br> In the past:
+      <p>
+	<b>Advanced Systems Lab, Fall 2016 (Head Teaching Assistant)</b> <a href="http://www.systems.ethz.ch/courses/fall2016/asl">[website]</a>
+      </p>
+      <p>
+      <b>Data Modelling and Databases, Spring 2016</b> <a href="http://www.systems.ethz.ch/courses/spring2016/data_mod_db">[website]</a>
+</p>
+      <p>
+	<b>Advanced Systems Lab, Fall 2015</b> <a href="http://www.systems.ethz.ch/courses/fall2015/asl">[website]</a>
+      </p>     
+      <p>
+      <b>Programmieren und Problemlösen, Spring 2015</b> <a href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/dozentPre.do?dozide=10037129&semkez=2015S&lang=de&ansicht=2">[website]</a>
+      </p>
+      <p>
+	<b>Advanced Systems Lab, Fall 2014</b> <a href="http://www.systems.ethz.ch/courses/fall2014/asl">[website]</a>
+      </p>     
+      <p>
+      <b>Programmieren und Problemlösen, Spring 2014</b> <a href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/dozentPre.do?dozide=10037129&semkez=2014S&lang=de&ansicht=2">[website]</a>
+      </p>
+      <p>
+	<b>Advanced Systems Lab, Fall 2013</b> <a href="http://www.systems.ethz.ch/courses/fall2013/asl">[website]</a>
+	 </p>
+      <p>
+      <b>Data Modeling and Databases, Spring 2012</b> <a href="http://archive.systems.ethz.ch/www.systems.ethz.ch/education/spring-2012/data-mod-db.html">[website]</a>
+      </p>
+      
+      </div>
+      
+
+    </div>
+    <div id="right">
+      <div class="box">
+	<img src="nov2017-s.png" alt="" width="280"> 
+	  <a id="about"></a> 
+        <h2>About Me</h2>	
+        <p> I am
+        currently studying as a PhD student at
+        the <a href="http://systems.ethz.ch"/>Systems
+        Group</a> at <a href="http://ethz.ch">ETH Zurich</a> under the supervision of <a href="http://www.inf.ethz.ch/personal/alonso/">Prof. Dr. Gustavo Alonso</a>. I have a
+        Master's degree in Distributed Systems from
+        ETH Zurich (2013), and an Engineering degree in Computer Science
+        from
+        the <a href="http://www.utcluj.ro">Technical
+        University of Cluj-Napoca</a> (2011).</p>
+
+	<h2>Curriculum Vitae</h2>
+
+	<a  href="cv/cv-dec-2017.pdf"><img src="cv-cover.png" alt="cv-cover-image" width="40%" height="40%"></a>
+
+	 <p>&nbsp</p>
+        
+        <h2>Coordinates</h2>
+	<p>
+	Email: <b><a href="mailto:zsolt.istvan@inf.ethz.ch">zsolt.istvan [at] inf.ethz.ch</a></b> <br>
+	Office: ETH Zurich, CAB E 78 <br>
+	Universitaetstrasse 6 <br>
+	CH-8092 Zurich, Switzerland <br>
+	Phone: +41 44 633 92 38 </p>
+<a href="http://ch.linkedin.com/pub/zsolt-istvan/62/1b7/b14">      
+          <img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Zsolt Istvan's profile on LinkedIn">        
+    </a>
+
+      </div>
+    </div>
+    <div id="clear"></div>
+  </div>
+  <div id="footer">
+    <p>Last updated: <i>June 2016</i>. Design by <a href="http://www.colorlightstudio.com">Igor Penjivrag</a></p>
+  </div>
+</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8927025; 
+var sc_invisible=1; 
+var sc_security="b32d79ec"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/8927025/0/b32d79ec/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>
