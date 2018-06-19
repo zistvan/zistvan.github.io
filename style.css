@@ -175,6 +175,7 @@ blockquote{
 	float: right;
 	display:block;
 	margin-top: 10px;
+	font-family: 'Helvetica Neue', sans-serif;        
 }
 
 #right .box {
@@ -194,13 +195,13 @@ blockquote{
 #right .box a {
 	margin: 10px 0 10px 0;
 	color: #56677C;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 #right .box p {
 	margin: 5px 0 10px 0;
-	line-height: 15px;
-	font-size: 12px;
+	line-height: 16px;
+	font-size: 13px;
 }
 
 #right .box ul {
