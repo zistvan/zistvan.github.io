@@ -140,6 +140,17 @@ blockquote{
 	margin-top:30px;
 }
 
+#content-centered {
+	max-width: 650px;
+	width: 100%;
+	margin-left:20px;
+}
+
+#content-centered ul {
+	padding: 0px 0 10px 30px;
+	margin:0px;
+}
+
 #content h2 {
 	margin: 0;
 	padding: 10px 0 10px 0;
@@ -151,7 +162,7 @@ blockquote{
 
 #left ul {
 	padding: 15px 0 15px 35px;
-	margin:0;
+	margin:10px;
 }
 
 #left li {
