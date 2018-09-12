@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Consensus on Modern Hardware</title>
+
+	<link rel="stylesheet" media="screen" href="style.css?">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Dave Shea">	
+	<meta name="robots" content="all">
+
+
+</head>
+
+<body id="css-zen-garden">
+<div class="page-wrapper">
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+			<h1>Birds of a Feather Session @ Middleware'18</h1>
+			<h2>Distributed Consensus and Coordination in Hardware</h2>
+		</header>
+
+		<div class="summary" id="zen-summary" role="article">
+			<p>
+			Join us for a discussion about emerging hardware acceleration for distributed systems and the challenges and opportunities it brings to the task of providing distributed consensus.
+			</p>
+		</div>
+
+		<div class="preamble" id="zen-preamble" role="article">
+			<h3>What is it about?</h3>
+			<p>Coordination among nodes is becoming an increasingly limiting factor for scaling large-scale distributed systems. Aiming to increase throughput and to slash latencies, there is growing interest in using specialized hardware for this task. Since programmable hardware is being deployed in increasing numbers in the datacenter (e.g., Microsoft Catapult FPGAs deployed in over 1 million hosts, Barefoot selling P4-programmable switches, Mellanox experimenting with FPGA-based programmable NICs) it is important to understand their usefulness for this task. </p>
+
+			<p>
+			While there is an obvious opportunity in speeding up latency-sensitive distributed operations, such as consensus that is a traditionally expensive operation, there are still open questions:
+			<ol>
+			<li>Are the performance increases that hardware solutions offers enough to make a difference in the real world?</li>
+			<li>It it possible to readily integrate these hardware-based ideas with software? Or do we need to redesign software and/or hardware?</li>
+			</ol>
+			</p>
+
+			
+
+			<p>
+			Motivated by the above, the purpose of this session is to discuss what emerging workloads could benefit from this type of acceleration and, maybe more importantly, how such specialized solutions can be integrated with the rest of the software stack and applications going forward: Are current proof-of-concepts readily useable in the real world? If not, what features do they miss or what requirements do they overlook? How should we change current software stacks to take advantage of microsecond-level latencies?
+
+			 </p>
+		</div>
+	</section>
+
+
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+
+			<div class="design-selection" id="design-selection">
+				<h3 class="select">Place &amp; Time</h3>
+				At <a href="http://2018.middleware-conference.org/index.php/program/"><b>Middleware'18</b></a>, Monday afternoon (10th of December 2018 in Rennes, France).
+
+				<h3 class="select">Schedule</h3>
+				To be announced at a later time.
+
+			<div class="design-archives" id="design-archives">
+				<h3 class="archives">Organizers</h3>
+				
+				<p><a href="http://zistvan.github.io"><b>Zsolt István</b></a> (IMDEA Software) and <a href="http://vukolic.com"><b>Marko Vukolić</b></a> (IBM Research)</p>
+
+				<p>In case of questions or suggestions don't hesitate to contact us.</p>
+
+			</div>
+			
+		</div>
+	</aside>
+
+
+</div>
+
+<div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+<div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+
+</body>
+</html>
