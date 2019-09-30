@@ -38,10 +38,11 @@ a:hover {
 	text-decoration: none;
 }
 
-blockquote{
-	background: #F7FDE3;
-	color: #606060;
-	padding: 10px;
+.blockquote{
+	background: #49deb1;
+	color: #FFFFFF;
+	font-size: 1.3em;	
+	height: 150%;
 }
 
 
