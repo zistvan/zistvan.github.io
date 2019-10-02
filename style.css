@@ -45,6 +45,13 @@ a:hover {
 	height: 150%;
 }
 
+.blockquotered{
+	background: #b72d2d;
+	color: #FFFFFF;
+	font-size: 1.3em;	
+	height: 150%;
+}
+
 
 /**** Main Container ***/
 
