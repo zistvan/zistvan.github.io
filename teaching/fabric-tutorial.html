@@ -16,6 +16,20 @@ The password for the default user is "password". Fabric is installed in the home
 </p>
 
 <p>
+<b>Attention!</b> Due to changes in the client interfaces, it is necessary to upgrade to nodeJS 12 before trying the exercises. For this, do the following in a terminal:
+<pre>
+  sudo apt-get remove nodejs	
+  sudo su
+  rm /etc/apt/sources.list.d/nodesource.list
+  echo "deb https://deb.nodesource.com/node_12.x bionic main" >> /etc/apt/sources.list.d/nodesource.list
+  echo "deb-src https://deb.nodesource.com/node_12.x bionic main" >> /etc/apt/sources.list.d/nodesource.list
+  exit
+  sudo apt-get update
+  sudo apt-get install nodejs
+</pre>
+</p>
+
+<p>
 If you want to explore the official tutorials, try your hand at this <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html">tutorial</a>. The same website will also explain how to install Fabric from scratch (the virtual machine has the dependencies already installed).
 </p>
 
