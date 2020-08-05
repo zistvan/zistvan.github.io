@@ -1,46 +1,45 @@
 <a href="https://zistvan.github.io">[HOME]</a>
 <br/>
 <h1>Hyperledger Fabric Tutorial -- How to build applications on a blockchain?</h1>
-<p>Tutorial offered as part of the <a href="https://chainreaction.es">chainrEaction 2020</a> hackathon.</p>
+<p>Tutorial offered originally as part of the <a href="https://chainreaction.es">chainrEaction 2020</a> hackathon.</p>
 
-<h2>Preparation: Virtual Machine</h2>
+<h2>Prerequisites</h2>
+
+You will need a machine with VirtualBox installed and at least 8GBs of RAM and 25GBs or more free space.
+<br/>
+
+While you do not need to be expert in the following, the tutorial uses Typescript, Javascript and Python as programming languages, and Node.js as a way of launching much of the application, so brushing up on these before the event is recommended.
+
+<h2>Virtual Machine</h2>
 
 <p>
 We have prepared a VM for you to use during the tutorial about Fabric.
-It can be downloaded from <a href="https://software.imdea.org/cloud/index.php/s/hrkGG8PO3qwRCYk">here (1)</a> (the password is "Madrid").
+It can be downloaded from <a href="https://software.imdea.org/cloud/index.php/s/OZtEJ7eIMv7MBM4">https://software.imdea.org/cloud/index.php/s/OZtEJ7eIMv7MBM4</a> (the password is "Madrid").
 </p>
 
 <p>
 After downloading the image, make sure to adjust the number of CPUs and the size of its allocated memory to values compatible with your computer.
 The password for the default user is "password". Fabric is installed in the home directory of the user.
 </p>
-
 <p>
-<b>Attention!</b> Due to changes in the client interfaces, it is necessary to upgrade to nodeJS 12 before trying the exercises. For this, do the following in a terminal:
-<pre>
-  sudo apt-get remove nodejs	
-  sudo su
-  rm /etc/apt/sources.list.d/nodesource.list
-  echo "deb https://deb.nodesource.com/node_12.x bionic main" >> /etc/apt/sources.list.d/nodesource.list
-  echo "deb-src https://deb.nodesource.com/node_12.x bionic main" >> /etc/apt/sources.list.d/nodesource.list
-  exit
-  sudo apt-get update
-  sudo apt-get install nodejs
-</pre>
+	Fabric is installed in: /home/vmuser/fabric-samples
+</p>
+<p>
+	If you want to use a proper text editor, Sublime is here: /home/vmuser/Downloads/sublime_text_3
 </p>
 
 <p>
-If you want to explore the official tutorials, try your hand at this <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html">tutorial</a>. The same website will also explain how to install Fabric from scratch (the virtual machine has the dependencies already installed).
+If you want to explore the official tutorials for Fabric, try your hand at this <a href="https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html">tutorial</a>. The same website will also explain how to install Fabric from scratch (the virtual machine has the dependencies already installed).
 </p>
 
 <h2>Exercises</h2>
 
 <p>
-The slides that provide background on Permissioned Blockchains can be found <a href="fabrictutorial/blockchain-intro.pdf">here (2)</a> and those that describe the exercises to follow are <a href="fabrictutorial/chainreaction20-fabric-tutorial.pdf">here (3)</a>.
+The slides that provide background on Permissioned Blockchains and those that describe the exercises to follow are also here: <a href="https://software.imdea.org/cloud/index.php/s/OZtEJ7eIMv7MBM4">https://software.imdea.org/cloud/index.php/s/OZtEJ7eIMv7MBM4</a>.
 </p>
 
 <p>
-You should clone the following repositories for the exercise projects:
+You should clone the following repositories before the tutorial inside the VM:
 <ul>
 	<li><a href="https://gitlab.software.imdea.org/zistvan-events/fabric-example-supplychain">https://gitlab.software.imdea.org/zistvan-events/fabric-example-supplychain</a></li>
 
@@ -51,7 +50,7 @@ You should clone the following repositories for the exercise projects:
 <h2>Questions</h2>
 
 <p>
-If you have questions/doubts, feel free to email Zsolt (zsolt.istvan [ at ] imdea.org) or Matteo (matteo.campanelli [ at ] imdea.org)!
+If you have questions/doubts, feel free to email Zsolt (zsolt.istvan [ at ] imdea.org).
 </p>
 <br/>
 <a href="https://zistvan.github.io">[HOME]</a>
