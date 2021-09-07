@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Zsolt Istvan's Homepage</title>
+<title>Zsolt István's Homepage</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
@@ -13,7 +13,7 @@
       <ul>
         <li><a href="#showresearch">RESEARCH</a></li>
         <li><a href="#showteaching">TEACHING</a></li>
-        <li><a href="https://dasya.itu.dk/for-students/proposals/#zsolt-istv%c3%a1n">STUDENT PROJECTS</a></li>
+        <li><a href="#openpositions">VACANCIES</a></li>
       </ul>
     </div>
     
@@ -37,18 +37,28 @@
       -->  
       </a>
 
-      <h1>Research profile</h1>
-      <p>The fundamental question I want to answer in my research is <b>how to use specialization to make databases and data processing operations more efficient in the datacenter</b>. In my work, I aim to achieve the goals described in the <a href=doc/nope-manifesto.pdf><b>NOPE Manifesto</b></a>.</p>
+      <h1 id="research">Research profile</h1>
+      <p>The fundamental question I want to answer in my research is <b>how to use specialization to make distributed systems and data processing operations more efficient in the datacenter</b>. In my work, I aim to achieve the goals described in the <a href=doc/nope-manifesto.pdf><b>NOPE Manifesto</b></a>.</p>
 
-      <p>See presentations about my work on this <a href="https://www.youtube.com/playlist?list=PLIacQiJh2IzHXZwKViQOcfGs3TeIttoT4">Youtube playlist</a>.</p>
+      <p>See presentations about my work on this <a href="https://www.youtube.com/playlist?list=PLIacQiJh2IzHXZwKViQOcfGs3TeIttoT4">YouTube playlist</a>:</p>
 
-      <a id="research"></a>        
+      <iframe width="640" height="300" src="https://www.youtube.com/embed/videoseries?list=PLIacQiJh2IzHXZwKViQOcfGs3TeIttoT4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <!--<a id="research"></a>        
       <p>
-      My <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/266096">dissertation</a> explored how we can reduce data movement bottlenecks in large distributed systems by pushing computation closer to storage. The outcome is <b>Caribou</b>: a distributed key-value store that runs entirely on FPGAs. It provides replication for fault tolerance and near-data filtering while meeting the network's line-rate requirements. Caribou is <a href="https://github.com/fpgasystems/caribou">open source</a> and can be used as a starting point for exploring near-data processing for emerging workloads.</p>
-
+      My research history: My <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/266096">dissertation</a> explored how we can reduce data movement bottlenecks in large distributed systems by pushing computation closer to storage. The outcome is <b>Caribou</b>: a distributed key-value store that runs entirely on FPGAs. It provides replication for fault tolerance and near-data filtering while meeting the network's line-rate requirements. Caribou is <a href="https://github.com/fpgasystems/caribou">open source</a> and can be used as a starting point for exploring near-data processing for emerging workloads.</p>
+      -->
        <h1>Working with me</h1>  
+       <p>
+        <div style="background:#ecf4b0" id="openpositions">PhD and Postdoc positions: I will be moving later this year to TU Darmstadt and building a group there. The first two open positions have been posted: 
+          <ul>
+            <li><a href="https://www.tu-darmstadt.de/universitaet/karriere_an_der_tu/stellenangebote/aktuelle_stellenangebote/stellenausschreibungen_detailansichten_1_428800.en.jsp">PhD in Acceleration of Analytics</a></li>
+            <li><a href="https://www.tu-darmstadt.de/universitaet/karriere_an_der_tu/stellenangebote/aktuelle_stellenangebote/stellenausschreibungen_detailansichten_1_428736.en.jsp">PhD in Systems Support for Privacy</a></li>
+          </ul>
+        Thesis topics: If you are a Bachelor or Master student at TUDa looking for a thesis in my area of expertise, please send me an email!
 
-        <span style="background:#EDEDFF;font-size:16px">I will be moving later this year to TU Darmstadt and will have several PhD and PostDoc positions open. If interested, feel free to reach out in an email (attaching the usual documents).</span>     </p>
+            </div>     
+          </p>
 
         <h2>Team at ITU</h2>  
         <ul>
@@ -56,8 +66,7 @@
         </ul>
 
         <h2>Students I currently advise</h2>  
-       	<ul>
-          <li><a>Mircea Murasan</a> -- Master Thesis at ITU (with Bernardo Machado)</li>    
+       	<ul>          
           <li><a>Neil Nielsen and Robert Bayer</a> -- Semester Project Autumn 2021, Bachelor Thesis at ITU until May 2021 (with Pinar Tozun)</li>
 
 
@@ -285,8 +294,7 @@ Field-Programmable Custom Computing Machines (FCCM'16), May 2016.</i>&nbsp<a hre
       <p>
     Reviewing (can be out of date and incomplete): 
     <br/>
-
-    VLDB'22, ANCS'21, SIGMOD'21, EDBT'21, HotCloud'20, SRDS'20, ASPLOS'20 (light), FCCM'20, EDBT'20, EuroSys Doctoral Workshop 2020 and 2019.
+    EuroSys'22, VLDB'22, ANCS'21, SIGMOD'21, EDBT'21, HotCloud'20, SRDS'20, ASPLOS'20 (light), FCCM'20, EDBT'20, EuroSys Doctoral Workshop 2020 and 2019.
     <br/>
     Invited reviews for ACM TACO and IEEE TKDE journals.
     </p>    
@@ -295,6 +303,7 @@ Field-Programmable Custom Computing Machines (FCCM'16), May 2016.</i>&nbsp<a hre
 
  <h1 id="previously">Previously working with me...</h1>
        <ul>
+        <li><a>Mircea Murasan</a> -- Master Thesis at ITU until September 2021 (with Bernardo Machado)</li>    
         <li><a href="https://www.linkedin.com/in/paula-benedec-004407153/">Paula Benedec</a> -- Bachelor Thesis at UTCN, RO until July 2021 (with  A. Hangan and G. Sebestyen-Pal)</li>
         <li><a href="https://www.linkedin.com/in/andrei-tosa-b212ab159/">Andrei Tosa</a> -- Bachelor Thesis at UTCN, RO until July 2021 (with  A. Hangan and G. Sebestyen-Pal)</li>
         <li><a>Jonas Aargard</a> -- Bachelor Thesis at ITU until May 2021 (with Philippe Bonnet)</li>
@@ -316,19 +325,30 @@ Field-Programmable Custom Computing Machines (FCCM'16), May 2016.</i>&nbsp<a hre
 	<div class="teaching">
       <a id="teaching"></a>
       <h1>Teaching</h1>
-<h3> Current Tutorials</h3>
-<p>
-  <b>Hyperledger Fabric Tutorial at EDBT2021</b> <a href="teaching/fabric-tutorial.html">[details]</a>
-      </p> 
 
-<h3> Spring Semester 2021 @ ITU</h3>
+<h3> Autumn Semester 2021 @ TUDa</h3>
 
-<b>Computer Systems Performance</b> <a href="https://learnit.itu.dk/course/view.php?id=3019681">[website]</a>
-      </p> 
+<b>Performance Analysis and Modeling of Software Systems (PAMS Lab)</b> <a href="">[website]</a>
+</p> 
 
 <br/>
 <br/>
 <h3> In the past...</h3>
+
+</br>
+Tutorials, most recently:
+<p>
+  <b>Hyperledger Fabric Tutorial at EDBT2021</b> <a href="teaching/fabric-tutorial.html">[details]</a>
+      </p> 
+
+</br>
+IT University of Copenhagen:
+<p>
+<b>Advanced Data Systems, Autumn 2021</b> <a href="https://learnit.itu.dk/course/view.php?id=3020263">[website]</a>
+</p>
+<p>      
+<b>Computer Systems Performance, Spring 2021</b> <a href="https://learnit.itu.dk/course/view.php?id=3019681">[website]</a>
+      </p> 
 
 </br>
 At UPM, Master Universitario en Software y Sistemas:
@@ -385,22 +405,20 @@ At UPM, Master Universitario en Software y Sistemas:
         <h2>About Me</h2>	
         <p> 
 
-        I am an associate professor at the <a href="https://en.itu.dk/">IT University of Copenhagen</a>, Denmark, where I'm affiliated with the <a href="https://dasya.itu.dk/">DASYA</a> group.
+        Starting in October 2021, I will be a Full Professor in Distributed Systems and Networking at the <a href="https://www.informatik.tu-darmstadt.de/fb20/index.de.jsp">Technical University of Darmstadt, Germany</a>. 
 
         <br/>
         <br/>
-         Earlier, I was an assistant research professor at the <a href="https://software.imdea.org/">IMDEA Software Institute</a> in Madrid, Spain.         I earned my PhD title from the <a href="http://systems.ethz.ch"/>Systems
+        Earlier, I was an Associate Professor at the <a href="https://en.itu.dk/">IT University of Copenhagen</a>, Denmark, and an Assistant Research Professor at the <a href="https://software.imdea.org/">IMDEA Software Institute</a> in Madrid, Spain. I earned my PhD title from the <a href="http://systems.ethz.ch"/>Systems
         Group</a> at <a href="http://ethz.ch">ETH Zurich</a>, where I was advised by <a href="http://www.inf.ethz.ch/personal/alonso/">Prof. Dr. Gustavo Alonso</a>. 
-        I have a
-        Master's degree in Distributed Systems from
+        I have a Master's degree in Distributed Systems from
         ETH Zurich (2013), and an Engineering degree in Computer Science
-        from
-        the <a href="http://www.utcluj.ro">Technical
+        from the <a href="http://www.utcluj.ro">Technical
         University of Cluj-Napoca</a> (2011).</p>
 
         <h2>Coordinates</h2>
 	<p>
-	Email: <b>zsis [ at ] itu.dk</b> <br>
+	Email: <b>zsolt.istvan [ at ] cs.tu-darmstadt.de</b> <br>
 	<a href="https://scholar.google.es/citations?user=lYvE47UAAAAJ&hl=es&oi=ao">Google Scholar</a>
 <!--<a href="http://ch.linkedin.com/pub/zsolt-istvan/62/1b7/b14">      
           <img src="http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Zsolt Istvan's profile on LinkedIn">        -->
@@ -423,7 +441,7 @@ At UPM, Master Universitario en Software y Sistemas:
     <div id="clear"></div>
   </div>
   <div id="footer">
-    <p>Last updated: <i>June 2021</i>.</p>
+    <p>Last updated: <i>September 2021</i>.</p>
   </div>
 </div>
 
