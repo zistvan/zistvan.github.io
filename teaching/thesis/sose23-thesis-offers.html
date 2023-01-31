@@ -1133,6 +1133,23 @@ Main reference paper to get a sense of the topic:
 
 <p>[1] [<a href="https://netlib.org/utk/people/JackDongarra/PAPERS/svd-sirev-M111773R.pdf">https://netlib.org/utk/people/JackDongarra/PAPERS/svd-sirev-M111773R.pdf</a>]</p>
 
+
+<h1 id="topic-3">3. Implementation of Probabilistic Data Structures in NVIDIA Smart Network Interface Card<a class="headerlink" href="#topic-3" title="Permanent link"></a></h1>
+<p>Keywords: Probabilistic Data Structures, NVIDIA Smart Network Interface Card</p>
+<p>Day-to-Day Advisor: Faeze Faghih</p>
+
+<p>Using deterministic data structures (e.g. Array, List, Set) when the data does not fit into the memory becomes difficult.  Probabilistic data structures (e.g. Bloom Filter, Count-Min Sketches) are alternatives to use instead of deterministic data structures to solve this challenge. With deterministic data structures, we always get the exact result; however, we get an approximation of the result when using probabilistic data structures.  The accuracy of these approximate results is determined by a variety of factors, including data size and the dedicated memory for the data structures.
+</p>
+
+<p>
+In this project, you will implement Bloom Filter and Count-min Sketches in the NVIDIA Smart Network Interface Cards (NICs). Using the CPU in NICs, it's possible to build the data structures on the data that is passing through the NIC. With this implementation, we will investigate the possibility of building the data structures at line rate (i.e. if it's possible to do the processing inside the CPU at the same rate as the data arrives).
+</p>
+
+<p>
+After a hands-on introduction to NVIDIA NIC and probabilistic data structures, you will implement Bloom Filter and Count-min sketches in the NIC CPU. In the next step, you will use this implementation to analyze sample data. As an optional step, you could also look for other probabilistic data structures to implement in the NIC.
+</p>
+
+
 <br/>
 <h3>Looking for a sample of previous thesis topics?</h3>
 <p>[<a href="sose22-thesis-offers.html">List of topics in SoSe 22</a>]</p>
